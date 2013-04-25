@@ -13,7 +13,8 @@ my @tests = (
 
     {args=>{account=>'6000340101'}   , status=>200, res=>{
         branch_code=>'6000',
-        branch_address=>'KCP Soepomo Jln. Prof. Dr. Soepomo 13 Jakarta 021-8309781, 8309794',
+        branch_name=>'KCP Soepomo',
+        branch_city_name=>'JAKARTA',
         account=>'6000340101',
         account_f=>'6000.34010.1',
         check_digit=>1,
@@ -31,7 +32,7 @@ for my $t (@tests) {
         my $res = parse_bca_account(%{$t->{args}});
         is($res->[0], $t->{status}, 'status');
         if ($t->{res}) {
-            is_deeply($res->[2], $t->{res}, 'res');
+            is_deeply($res->[2], $t->{res}, 'res') or diag explain $res;
         }
     };
 }
