@@ -1,5 +1,11 @@
 Revision history for Business-ID-BCA
 
+0.02    2013-04-25 (SHARYANTO)
+
+        No functional changes. Update data source (branch_address is now not
+        provided, replaced by branch_name, data is more complete).
+
+
 0.01    2013-04-25 (SHARYANTO)
 
         First release.
