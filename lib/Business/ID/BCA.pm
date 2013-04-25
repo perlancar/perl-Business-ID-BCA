@@ -716,7 +716,7 @@ $data_hash->{$_->[0]} = $_ for @$data;
 # generate-date: Thu Apr 25 09:46:05 2013
 # generated-by: /mnt/home/s1/repos/gudangdata/bin/gen-perl-meta-snippet
 our $meta = {
-  "columns" => {
+  "fields" => {
     address => {
       "index" => 1,
       "schema" => "str*",
