@@ -21,7 +21,7 @@ Perinci::CmdLine->new(url=>'/Business/ID/BCA/parse_bca_account')->run;
 
 =head1 DESCRIPTION
 
-This is a command-line interface for the <parse_bca_account> function in
+This is a command-line interface for the C<parse_bca_account> function in
 L<Business::ID::BCA>.
 
 =cut
