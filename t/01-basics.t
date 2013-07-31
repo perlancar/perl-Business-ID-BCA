@@ -14,7 +14,7 @@ my @tests = (
     {args=>{account=>'6000340101'}   , status=>200, res=>{
         branch_code=>'6000',
         branch_name=>'KCP Soepomo',
-        branch_city_name=>'JAKARTA',
+        branch_city_name=>'DKI Jakarta',
         account=>'6000340101',
         account_f=>'6000.34010.1',
         check_digit=>1,
