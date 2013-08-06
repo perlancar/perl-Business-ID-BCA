@@ -2,16 +2,18 @@ Revision history for Business-ID-BCA
 
 0.03    2013-07-31 (SHARYANTO)
 
-        No functional changes. Update data source (data is more complete,
-        GudangData switching to using data from BCA official site).
+        - No functional changes. Update data source (data is more
+          complete, GudangData switching to using data from BCA
+          official site).
 
 
 0.02    2013-04-25 (SHARYANTO)
 
-        No functional changes. Update data source (branch_address is now not
-        provided, replaced by branch_name, data is more complete).
+        - No functional changes. Update data source (branch_address is
+          now not provided, replaced by branch_name, data is more
+          complete).
 
 
 0.01    2013-04-25 (SHARYANTO)
 
-        First release.
+        - First release.
