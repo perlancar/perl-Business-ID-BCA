@@ -4,11 +4,11 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Any;
 
 # VERSION
 
-Perinci::CmdLine->new(url=>'/Business/ID/BCA/parse_bca_account')->run;
+Perinci::CmdLine::Any->new(url=>'/Business/ID/BCA/parse_bca_account')->run;
 
 1;
 # ABSTRACT: Parse BCA account number
