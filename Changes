@@ -1,5 +1,13 @@
 Revision history for Business-ID-BCA
 
+0.04     2014-07-22 (SHARYANTO)
+
+         - No functional changes.
+
+         - Switch CLI scripts from using Perinci::CmdLine to
+           Perinci::CmdLine::Any to reduce size of dependencies.
+
+
 0.03    2013-07-31 (SHARYANTO)
 
         - No functional changes. Update data source (data is more
