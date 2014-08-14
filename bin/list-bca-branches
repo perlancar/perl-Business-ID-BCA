@@ -1,27 +1,3 @@
 #!perl
+# FUNC: /Business/ID/BCA/list_bca_branches
 
-use 5.010;
-use strict;
-use warnings;
-
-use Perinci::CmdLine::Any;
-
-# VERSION
-
-Perinci::CmdLine::Any->new(url=>'/Business/ID/BCA/list_bca_branches')->run;
-
-1;
-# ABSTRACT: List BCA branches
-# PODNAME: list-bca-branches
-
-=head1 SYNOPSIS
-
- % list-bca-branches --help
-
-
-=head1 DESCRIPTION
-
-This is a command-line interface for the C<list_bca_branches> function in
-L<Business::ID::BCA>.
-
-=cut
