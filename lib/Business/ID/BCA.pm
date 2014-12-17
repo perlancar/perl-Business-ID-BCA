@@ -1,12 +1,13 @@
 package Business::ID::BCA;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
 
 use Perinci::Sub::Gen::AccessTable qw(gen_read_table_func);
-
-# VERSION
 
 our %SPEC;
 
@@ -1101,7 +1102,7 @@ sub parse_bca_account {
     [200, "OK", $parsed];
 }
 
-#ABSTRACT: Parse/validate BCA account number
+#ABSTRACT:
 
 =head1 SYNOPSIS
 
