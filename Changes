@@ -1,10 +1,10 @@
-0.08    2015-09-15 (PERLANCAR)
+0.08    2015-09-15  Released-By: PERLANCAR
 
 	- Update to newer Perinci::Sub::Gen::AccessTable (default_fields
 	  must be array).
 
 
-0.07    2015-09-03 (PERLANCAR)
+0.07    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -13,7 +13,7 @@
 	  requirement.
 
 
-0.06    2015-07-10 (PERLANCAR)
+0.06    2015-07-10  Released-By: PERLANCAR
 
 	- Move pericmd scripts to App-IndonesianBankingUtils to reduce
 	  dependencies for our dist.
@@ -26,7 +26,7 @@
            generated script is not as polished as it should be. Stay tuned.
 
 
-0.04     2014-07-22 (SHARYANTO)
+0.04     2014-07-22  Released-By: SHARYANTO
 
          - No functional changes.
 
@@ -34,20 +34,20 @@
            Perinci::CmdLine::Any to reduce size of dependencies.
 
 
-0.03    2013-07-31 (SHARYANTO)
+0.03    2013-07-31  Released-By: SHARYANTO
 
         - No functional changes. Update data source (data is more
           complete, GudangData switching to using data from BCA
           official site).
 
 
-0.02    2013-04-25 (SHARYANTO)
+0.02    2013-04-25  Released-By: SHARYANTO
 
         - No functional changes. Update data source (branch_address is
           now not provided, replaced by branch_name, data is more
           complete).
 
 
-0.01    2013-04-25 (SHARYANTO)
+0.01    2013-04-25  Released-By: SHARYANTO
 
         - First release.
